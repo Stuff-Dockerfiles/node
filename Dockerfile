@@ -1,4 +1,5 @@
 FROM node:14-alpine3.12 as build
+LABEL org.opencontainers.image.source https://github.com/Stuff-Dockerfiles/node
 
 RUN apk update \
  && apk add -u --no-cache \
